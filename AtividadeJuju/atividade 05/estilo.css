@@ -1,0 +1,426 @@
+*{
+    border: 0;
+    padding: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 200px;
+    background-color: #E8E8DA;
+    display: grid;
+    place-items: center;
+}
+header img{
+    height: 150px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.img-box {
+    position: relative;
+    border-radius: 10px;
+}
+
+.img-box img {
+    width: 600px;
+    display: block;
+    transition: filter 0.5s ease-in-out; /* Transição para o efeito de desfoque */
+height: 400px;
+border-radius: 10px;
+}
+
+.img-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Transparente por padrão */
+    transition: background 0.5s ease-in-out; /* Transição para o efeito escuro */
+    z-index: 1; /* Fica acima da imagem */
+    border-radius: 10px;
+}
+
+.container:hover .img-box img {
+    filter: blur(4px); /* Aplica desfoque à imagem ao passar o mouse */
+    border-radius: 10px;
+}
+
+.container:hover .img-box::before {
+    background: rgba(0, 0, 0, 0.491); /* Escurece a imagem com uma sobreposição */
+    border-radius: 10px;
+}
+
+.legenda {
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(20px);
+    z-index: 2; /* Fica acima do overlay */
+}
+
+.legenda h2, .legenda p {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container:hover .legenda {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cartoes{
+    display: flex;
+}
+
+#espaco{
+    margin-right: 100px;
+}
+p{
+    font-size: 17px;
+}
+.espaco1{
+    padding-bottom: 50px;
+}
+.cartoes{
+margin-top: 60px;
+}
+
+.sobre{
+    background: linear-gradient(90deg, #262A20,#6B8C2F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    margin-top: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.espacobotoes{
+    background-color: #5A8527;
+    height: 70px;
+    display: grid;
+    place-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quadrado{
+    width: 100%;
+    background-color: #32312B;
+    height: 130px;
+    margin-top: 120px;
+}
+
+.lugares{
+display: grid;
+place-items: center;
+padding-top: 100px;
+}
+
+.conteudo{
+    display: flex;
+}
+.lugares img{
+    height: 580px;
+    width: 450px;
+    margin-right: 300px;
+    border-radius: 10px;
+}
+.lugares p{
+    font-size: 25px;
+    width: 600px;
+    height: 500px;
+    margin-top: 14%;
+}
+.lugares{
+    background-color: #EAE8D6;
+    
+}
+.lugarti{
+    color: #61872A;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.conteudod{
+    display: flex;
+}
+ .diferente{
+    display: flex;
+    background-color: #EAE8D6;
+    display: grid;
+    place-items: center;
+ }
+ .diferente p{
+    font-size: 25px;
+    width: 600px;
+    height: 500px;
+    margin-top: 14%;
+    margin-right: 300px;
+ }
+ .diferente img{
+    height: 580px;
+    width: 450px;
+    border-radius: 10px;
+ }
+ .cardapio{
+    background-color: #61872A;
+    height: 700px;
+    color: white;
+    font-size: 40px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+ }
+ .cardadatxt p{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    
+ }
+ .dois{
+    display: flex;
+    margin-top: 50px;
+ }
+.imama{
+    height: 350px;
+    width: 350px;
+    border-radius: 250px;
+    margin-left: 300px;
+}
+.cardapio a{
+    font-size: 18px;
+    background-color: #E98629;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+.botones:hover{
+    scale: 1.3;
+    }
+    .botones{
+        transition: 0.5s ease-in-out;
+    }
+.capo{
+    background-color: #32312B;
+}
+
+.entrada{
+    background-color: #32312B;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.entradas{
+    display: flex;
+    text-align: center;
+    gap: 200px;
+}
+.entradas img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 100px;
+       
+}
+span{
+padding: 10px;
+font-size: 20px;
+}
+.entradas p{
+width: 300px;
+margin-top: 16px;
+}
+.entrada h2{
+font-size: 40px;
+padding-top: 50px;
+}
+.categoria{
+    color: #E98629;
+}
+.reservas{
+    height: 1100px;
+    justify-content: center;
+    text-align: center;
+    background-color: #474b43;
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 0px 10px #ffffff,
+    0px 0px 20px #ffffff,
+    0px 0px 40px #ffffff,
+    0px 0px 80px #ffffff;;
+}
+.tudo{
+    background-color: #262A20;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+
+}
+.reservas p{
+    font-size: 30px;
+    font-weight: 50;
+    
+}
+input{
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    margin: 50px;
+    background-color: #262A20;
+    color: white;
+    font-size: 15px;
+}
+select{
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    margin: 50px;
+    border: 1px solid black;
+    background-color: #262A20;
+    color: white;
+    font-size: 15px;
+}
+
+.capi{
+    background-color: #262A20;
+}
+
+.suareserva{
+    color: white;
+    padding-bottom: 100px;
+    font-size: 40px;
+    text-shadow:  0px 0px 10px #ffffff,
+    0px 0px 20px #ffffff,
+    0px 0px 40px #ffffff,
+    0px 0px 80px #ffffff;
+}
+input::placeholder{
+    color: white;
+}
+.mesa{
+    display: flex;
+    flex-direction: column;
+}
+.avaliacoes{
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+.avaliacoes img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    display: grid;
+    place-items: center;
+   
+}
+.avaliacoes p{
+    width: 250px;
+    text-align: center;
+    display: grid;
+        place-items: center;
+}
+.aviliaaa{
+    display: grid;
+        place-items: center;
+        
+}
+.avaliacao span{
+font-size: 25px;
+
+}
+.avalia{
+    display: grid;
+        place-items: center;
+        
+}
+footer{
+    height: 200px;
+    background-color: #E8E8DA;
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+}
+footer img{
+    height: 150px;
+}
+.tudo button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+}
+.botaoreserva:hover{
+    scale: 1.2;
+    background-color: #262A20;
+    color: white;
+    text-shadow:  0px 0px 10px #ffffff,
+    0px 0px 20px #ffffff,
+    0px 0px 40px #ffffff,
+    0px 0px 80px #ffffff;
+}
+.botaoreserva{
+    transition: 0.5s ease-in-out;
+}

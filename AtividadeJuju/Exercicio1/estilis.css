@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+    text-align: center;
+}
+.titulo{
+    padding: 40px;
+   background-color: rgb(84, 56, 207);
+   color: white;
+   border-bottom: 5px solid rgb(80, 31, 128);
+   text-align: center;
+   font-size: 70px;
+}
+
+
+body{
+    background-color: rgb(83, 77, 77);
+    color: white;
+   
+}
+.imgr6{
+    width: 500px;
+   
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.r6{
+    
+
+     width: 700px;
+   margin-top: 40px;
+     align-content: center;
+     display: flex;
+     text-align: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.r6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgfifa{
+    width: 500px;
+    height: 400;
+    padding-top: 80px;
+   
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.fifa{
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.filmes{
+    margin-top: 40px;
+}
+.filme{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.escritafil{
+    width: 700px;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 80px
+}
+
+.border{
+    width: 100%;
+    background-color: aliceblue;
+    height: 0.5px;
+    margin-bottom: 100px;
+}
+.txtlugares{
+    align-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 500px;
+    margin-left: 510px;
+    margin-top: 20px;
+}
+.lulu{
+    font-size: 40px;
+}

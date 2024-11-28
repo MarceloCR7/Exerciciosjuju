@@ -1,0 +1,42 @@
+.persos{
+    display: flex;
+    gap: 150px;
+    justify-items: center;
+    justify-content: center;
+}
+.perso{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.persos p{
+    font-size: 13px;
+    margin-top: 20px;
+    width: 430px;
+    height: 400px;
+    margin: 10px;
+}
+.imgdiv{
+    height: 300px;
+}
+.persos span{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.imgdiv:hover{
+    scale: 1.1;
+}
+.imgdiv{
+    transition: 0.3s ease-in-out;
+}
+footer {
+    background-image: url(rodapepe.jpg);
+        height: 300px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        margin-left: 480px;}

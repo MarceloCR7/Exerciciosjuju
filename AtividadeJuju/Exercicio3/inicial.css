@@ -1,0 +1,144 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+header{
+    height: 200px;
+    background-color: #FF1F21;
+    display: flex;
+    gap: 700px;
+    
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+header a{
+ color: white; 
+ padding: 10px;  
+ font-size: 23px;
+}
+.navegacao{
+    margin-top: 80px;
+}
+
+.borda{
+    border-right: 3px solid #FAA903;
+}
+.oferta{
+    background-image: url(OFERTA.png);
+    height:900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: #44C3F0;
+    text-align: center;
+}
+.produto1{
+    background-color: white;
+    font-family:Helvetica, sans-serif;
+    height: 600px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 150px;
+    display: grid;
+    place-items: center;
+}
+.revista{
+    width: 240px;
+margin-top: 60px;
+border-radius: 5px;
+}
+.produtos p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.titulorevista{
+    margin-top: 20px;
+}
+button{
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 30px;
+    background-color: #FF1F21;
+}
+button:hover{
+    background-color: #28738e;
+    scale: 1.13;
+}
+button{
+    transition: 0.3s ease-in-out;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-shadow: 0px 0px 10px #FAA903,
+    0px 0px 20px #FAA903,
+    0px 0px 40px #FAA903,
+    0px 0px 80px #FAA903;
+}
+.produtos{
+    display: flex;
+    text-align: center;
+}
+.produto2{
+    background-color: white;
+    font-family:Helvetica, sans-serif;
+    height: 600px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 100px;
+    display: grid;
+    place-items: center;
+}
+.colecionaveis{
+    background-image: url(_\(Story\).png);
+}
+
+.imgcolecionaveis{
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+}
+.revistag{
+    width: 200px;
+margin-top: 60px;
+border-radius: 5px;
+height: 300px;
+}
+.marvel{
+    margin-top: 70px;
+}
+.revistab{
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 5px;
+    height: 315px;
+}
+footer{
+    display: grid;
+    place-items: center;
+    background-color: #FF1F21;
+    height: 200px;
+    margin-top: 200px;
+
+}
+footer img{
+    height: 200px;
+    width: 200px;
+}
